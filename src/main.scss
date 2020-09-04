@@ -1,0 +1,23 @@
+@import "./../node_modules/bootstrap/scss/bootstrap";
+@import "./../node_modules/bootstrap/scss/functions";
+@import "./../node_modules/bootstrap/scss/variables";
+@import "./../node_modules/bootstrap/scss/mixins";
+
+// colors
+$plum: #592642;
+$purple: #4B3F73;
+$sherbert: #F2A662;
+$peach: #F1BB9B;
+$rose: #D97373;
+$navy: #282c34;
+$light: #e9ecef;
+$dark: #343a40;
+
+.component {
+    min-height: 60vh;
+    // border: 1px solid red;
+}
+
+.home {
+    background-color: $peach;
+}
